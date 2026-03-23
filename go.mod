@@ -1,6 +1,6 @@
 module github.com/shibukawa/snapsql
 
-go 1.24.10
+go 1.25.0
 
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
@@ -11,7 +11,7 @@ require (
 	github.com/goccy/go-yaml v1.19.2
 	github.com/google/cel-go v0.26.1
 	github.com/google/uuid v1.6.0
-	github.com/jackc/pgx/v5 v5.8.0
+	github.com/jackc/pgx/v5 v5.9.1
 	github.com/joho/godotenv v1.5.1
 	github.com/k1LoW/tbls v1.92.3
 	github.com/mattn/go-sqlite3 v1.14.33
