@@ -1,6 +1,6 @@
 module github.com/shibukawa/snapsql
 
-go 1.24.10
+go 1.25.0
 
 require (
 	github.com/alecthomas/assert/v2 v2.11.0
@@ -13,8 +13,8 @@ require (
 	github.com/google/uuid v1.6.0
 	github.com/jackc/pgx/v5 v5.8.0
 	github.com/joho/godotenv v1.5.1
-	github.com/k1LoW/tbls v1.92.3
-	github.com/mattn/go-sqlite3 v1.14.33
+	github.com/k1LoW/tbls v1.93.0
+	github.com/mattn/go-sqlite3 v1.14.34
 	github.com/shibukawa/parsercombinator v1.0.13
 	github.com/shopspring/decimal v1.4.0
 	github.com/stretchr/testify v1.11.1
@@ -22,15 +22,15 @@ require (
 	github.com/testcontainers/testcontainers-go/modules/mysql v0.40.0
 	github.com/testcontainers/testcontainers-go/modules/postgres v0.40.0
 	github.com/yuin/goldmark v1.7.16
-	golang.org/x/text v0.33.0
+	golang.org/x/text v0.34.0
 	google.golang.org/protobuf v1.36.11
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
-	cel.dev/expr v0.24.0 // indirect
+	cel.dev/expr v0.25.1 // indirect
 	dario.cat/mergo v1.0.2 // indirect
-	filippo.io/edwards25519 v1.1.0 // indirect
+	filippo.io/edwards25519 v1.1.1 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/IGLOU-EU/go-wildcard/v2 v2.1.0 // indirect
 	github.com/Microsoft/go-winio v0.6.2 // indirect
@@ -51,20 +51,19 @@ require (
 	github.com/docker/go-connections v0.6.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
 	github.com/ebitengine/purego v0.8.4 // indirect
-	github.com/expr-lang/expr v1.17.7 // indirect
+	github.com/expr-lang/expr v1.17.8 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/gertd/go-pluralize v0.2.1 // indirect
 	github.com/go-logr/logr v1.4.3 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.1 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/k1LoW/errors v1.1.1 // indirect
-	github.com/k1LoW/expand v0.16.6 // indirect
-	github.com/klauspost/compress v1.18.0 // indirect
+	github.com/k1LoW/expand v0.16.7 // indirect
+	github.com/klauspost/compress v1.18.3 // indirect
 	github.com/lufia/plan9stats v0.0.0-20230110061619-bbe2e5e100de // indirect
 	github.com/magiconair/properties v1.8.10 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
@@ -91,15 +90,15 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.61.0 // indirect
-	go.opentelemetry.io/otel v1.39.0 // indirect
-	go.opentelemetry.io/otel/metric v1.39.0 // indirect
-	go.opentelemetry.io/otel/trace v1.39.0 // indirect
-	go.opentelemetry.io/proto/otlp v1.7.0 // indirect
-	golang.org/x/crypto v0.46.0 // indirect
+	go.opentelemetry.io/otel v1.40.0 // indirect
+	go.opentelemetry.io/otel/metric v1.40.0 // indirect
+	go.opentelemetry.io/otel/trace v1.40.0 // indirect
+	go.opentelemetry.io/proto/otlp v1.7.1 // indirect
+	golang.org/x/crypto v0.47.0 // indirect
 	golang.org/x/exp v0.0.0-20250408133849-7e4ce0ab07d0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
-	golang.org/x/sys v0.39.0 // indirect
+	golang.org/x/sys v0.40.0 // indirect
 	golang.org/x/xerrors v0.0.0-20240903120638-7835f813f4da // indirect
-	google.golang.org/genproto/googleapis/api v0.0.0-20251202230838-ff82c1b0f217 // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20251222181119-0a764e51fe1b // indirect
+	google.golang.org/genproto/googleapis/api v0.0.0-20260203192932-546029d2fa20 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260203192932-546029d2fa20 // indirect
 )
